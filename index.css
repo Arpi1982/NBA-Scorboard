@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+}
+
+.sign{
+    font-size: 40px;
+    color: #eeee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 35.9px;    
+}
+
+.container {
+    margin: 100px auto;
+    width: 700px;
+    height: 450px;
+    background-image: url(./images/nba-logo.png);
+    background-size: cover;
+    background-position: center;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.screen{
+    width: 155px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #080001;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    color: #f94f6d;
+    margin-bottom: 33px;
+}
+
+.buttons-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #9aabd8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9aabd8;
+    font-size: 18px;
+}
+
+.new-game{
+    margin-top: 40px;
+    margin: 30px auto;
+    padding: 20px 72px;
+}
+
+.home-screen:active{
+    border: 6px solid red;   
+}
+
+.btn:hover{
+    width: 55px;
+    height: 55px;  
+}
+
+.btn:focuse{
+    outline:#f94f6d ;
+}
+
+.btn:active{
+    outline: none;
+    color: black;
+    border: 14px solid black;
+    background-color: #9aabd8;
+}

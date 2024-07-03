@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container" id='container'>
+            <div class="home">
+                <h3 class="sign">HOME</h3>
+                <div class="screen" id="sign-home">0</div>
+                <div class="buttons-div">
+                    <button class="btn" onclick="scoreOne()" id="fasz">+1</button>
+                    <button class="btn" onclick="scoreTwo()">+2</button>
+                    <button class="btn" onclick="scoreThree()">+3</button>
+                </div>
+                <button class="btn new-game" id='new-game' onclick="newgame()">New Game</button>
+            </div>
+            <div class="guest">
+                <h3 class="sign">GUEST</h3>
+                <div class="screen" id="sign-guest">0</div>
+                <div class="buttons-div">
+                    <button class="btn" onclick="scoreGuestOne()">+1</button>
+                    <button class="btn" onclick="scoreGuestTwo()">+2</button>
+                    <button class="btn" onclick="scoreGuestThree()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
